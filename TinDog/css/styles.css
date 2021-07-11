@@ -1,0 +1,209 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu';
+
+    
+}
+
+
+/* title section*/
+#title{
+    background-color: #ff4c68;
+    }
+.navbar-brand::first-letter{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.btn{
+    margin-right: 2.5%;
+
+}
+
+.container-fluid{
+    padding:3% 17% 7.5%;
+  
+}
+.f1{
+    color:white;
+    font-family: 'DM Serif Display', serif;
+    font-size:4.5rem;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    
+}
+.navbar-item{
+    padding:0 12px;
+
+}
+.navbar-nav{
+
+    font-size: larger;
+    
+}
+
+.phone-image{
+    top:26%;
+    margin-left: 7%;
+    transform: rotate(25deg);
+    position:absolute;
+    width:60%;
+    z-index: 0;
+    animation-name: transform;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+@keyframes transform{
+    0%{
+        transform: rotate(-25deg);
+    }
+
+    100%{
+        transform:rotate(25deg);
+    }
+}
+
+/* features Section*/
+#features{
+
+    padding:12% 15%;
+    text-align: center;
+    word-spacing: 2px;
+    background-color: white;
+    position:relative;
+    z-index:1;
+
+}
+.features-box{
+    padding-right:50px;
+}
+
+.features-icon{
+    font-size: 4.5rem;
+    color:#ef8172;
+    /* color:aliceblue; */
+    font-weight:0.1rem;
+}
+.features-icon:hover{
+    transition: all 1.2s;
+    color:rgb(233, 89, 89);
+}
+.features-heading{
+    font-weight: bold;
+    font-size: 2rem;;
+}
+.space1{
+    margin:5% 5% 5% 8%;
+    font-size: 1.2rem;
+}
+
+    
+
+
+/* Testimonial Sections */
+#testimonials{
+   
+    text-align: center;
+   background-color:#ef8172;
+    color:rgb(255, 255, 255);
+}
+.carousel-inner{
+    padding:6% 15%;
+}
+.testimonials-image{
+    width:10%;
+    border-radius: 100%;
+    margin:2.5rem 1.2rem;
+    
+}
+.people-says{
+    font-family: 'DM Serif Display', serif;
+    font-size:3.9rem;
+    font-weight: lighter;
+    line-height: 1.4;
+}
+
+/* Press Section */
+#press{
+    background-color:#ef8172;
+     text-align: center;
+     padding-bottom: 5%;
+ 
+}
+.press-logo{
+    width:12%;
+    margin:1.5rem;
+}
+
+/* Pricing  Section*/
+#pricing{
+    padding:7% 15%;
+    text-align:center;
+}
+.pricing-plan-heading{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.price-btn{
+    width:80%;
+   margin-left: 10%;
+}
+.card{
+    margin:1rem;
+}
+
+/* CTA section */
+#cta{
+    padding:7% 15%;
+    text-align:center;
+    background-color: #ff4c68;
+    color:#fff;
+}
+.cta-des{
+    font-size:4rem;
+    font-family: 'DM Serif Display', serif;
+    word-spacing:10px;
+    margin-bottom: 3%;
+}
+
+/* Footer Section */
+#footer{
+    text-align: center;
+    margin:4% auto 2.5%;
+    position:static;
+}
+.social-icon{
+   
+    margin-bottom: 2%;
+    padding:1%;
+    color:black;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+    transition: all 1s ease;
+}
+.social-icon:hover{
+    transform: scale(1.4,1.4);
+    -webkit-transform: scale(1.4,1.4);
+    -webkit-text-fill-color: black;
+    -moz-transform: scale(1.4,1.4);
+    -o-transform: scaleY(1.4,1.4);
+}
+@media (max-width:1028px) {
+    .phone-image{
+        position:static;
+        transform:rotate(0deg);
+        margin-top:20%;
+        
+    }
+    #title{
+        text-align: center;
+    }
+    
+}
